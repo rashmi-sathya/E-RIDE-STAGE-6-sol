@@ -45,7 +45,6 @@ export default class BottomTabNavigator extends Component {
             },
             labelStyle: {
               fontSize: 20,
-              fontFamily: "Rajdhani_600SemiBold"
             },
             labelPosition: "below-icon",
             tabStyle: {
