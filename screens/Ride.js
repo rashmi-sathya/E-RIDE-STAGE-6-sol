@@ -190,6 +190,8 @@ export default class RideScreen extends Component {
       );
     }
     return (
+        <KeyboardAvoidingView behavior="padding" style={styles.container}>
+
         <View style={styles.upperContainer}>
           <Image source={appIcon} style={styles.appIcon} />
           <Text style={styles.title}>e-ride</Text>
@@ -229,6 +231,8 @@ export default class RideScreen extends Component {
             </Text>
           </TouchableOpacity>
         </View>
+      </KeyboardAvoidingView>
+
     );
   }
 }
